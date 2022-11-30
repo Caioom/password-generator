@@ -11,4 +11,8 @@ export class AppComponent {
   onButtonClick (): void {
     this.password = 'MY PASSWORD'
   }
+
+  getName (): string {
+    return 'caio'
+  }
 }
